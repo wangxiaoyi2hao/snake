@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186279351B81D85300A8CA86 /* SettingsTanChiShe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 186279341B81D85300A8CA86 /* SettingsTanChiShe.bundle */; };
+		1894B52E1B7D6AFE008070CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B52D1B7D6AFE008070CC /* Foundation.framework */; };
+		1894B5301B7D6AFE008070CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B52F1B7D6AFE008070CC /* CoreGraphics.framework */; };
+		1894B5321B7D6AFE008070CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B5311B7D6AFE008070CC /* UIKit.framework */; };
+		1894B5341B7D6AFE008070CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B5331B7D6AFE008070CC /* CoreData.framework */; };
+		1894B53A1B7D6AFE008070CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5381B7D6AFE008070CC /* InfoPlist.strings */; };
+		1894B53C1B7D6AFE008070CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894B53B1B7D6AFE008070CC /* main.m */; };
+		1894B5401B7D6AFE008070CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894B53F1B7D6AFE008070CC /* AppDelegate.m */; };
+		1894B5431B7D6AFE008070CC /* TanChiShe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1894B5411B7D6AFE008070CC /* TanChiShe.xcdatamodeld */; };
+		1894B5451B7D6AFE008070CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5441B7D6AFE008070CC /* Images.xcassets */; };
+		1894B54C1B7D6AFE008070CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B54B1B7D6AFE008070CC /* XCTest.framework */; };
+		1894B54D1B7D6AFE008070CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B52D1B7D6AFE008070CC /* Foundation.framework */; };
+		1894B54E1B7D6AFE008070CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B5311B7D6AFE008070CC /* UIKit.framework */; };
+		1894B54F1B7D6AFE008070CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1894B5331B7D6AFE008070CC /* CoreData.framework */; };
+		1894B5571B7D6AFE008070CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5551B7D6AFE008070CC /* InfoPlist.strings */; };
+		1894B5591B7D6AFE008070CC /* TanChiSheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894B5581B7D6AFE008070CC /* TanChiSheTests.m */; };
+		1894B5651B7D6CE8008070CC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894B5631B7D6CE8008070CC /* HomeViewController.m */; };
+		1894B5661B7D6CE8008070CC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5641B7D6CE8008070CC /* HomeViewController.xib */; };
+		1894B5701B7D6E17008070CC /* back2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5681B7D6E17008070CC /* back2.mp3 */; };
+		1894B5711B7D6E17008070CC /* gameover_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B5691B7D6E17008070CC /* gameover_background.png */; };
+		1894B5721B7D6E17008070CC /* greenstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56A1B7D6E17008070CC /* greenstar.png */; };
+		1894B5731B7D6E17008070CC /* pop_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56B1B7D6E17008070CC /* pop_refresh.png */; };
+		1894B5741B7D6E17008070CC /* redstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56C1B7D6E17008070CC /* redstar.png */; };
+		1894B5751B7D6E17008070CC /* shop_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56D1B7D6E17008070CC /* shop_bottom.png */; };
+		1894B5761B7D6E17008070CC /* snake_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56E1B7D6E17008070CC /* snake_bg.png */; };
+		1894B5771B7D6E17008070CC /* win_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894B56F1B7D6E17008070CC /* win_background.png */; };
+		1894B57A1B7D752C008070CC /* CellPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894B5791B7D752C008070CC /* CellPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1894B5501B7D6AFE008070CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1894B5221B7D6AFE008070CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1894B5291B7D6AFE008070CC;
+			remoteInfo = TanChiShe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186279341B81D85300A8CA86 /* SettingsTanChiShe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SettingsTanChiShe.bundle; sourceTree = "<group>"; };
+		1894B52A1B7D6AFE008070CC /* TanChiShe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanChiShe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1894B52D1B7D6AFE008070CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1894B52F1B7D6AFE008070CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1894B5311B7D6AFE008070CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1894B5331B7D6AFE008070CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1894B5371B7D6AFE008070CC /* TanChiShe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TanChiShe-Info.plist"; sourceTree = "<group>"; };
+		1894B5391B7D6AFE008070CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1894B53B1B7D6AFE008070CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1894B53D1B7D6AFE008070CC /* TanChiShe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TanChiShe-Prefix.pch"; sourceTree = "<group>"; };
+		1894B53E1B7D6AFE008070CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1894B53F1B7D6AFE008070CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1894B5421B7D6AFE008070CC /* TanChiShe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TanChiShe.xcdatamodel; sourceTree = "<group>"; };
+		1894B5441B7D6AFE008070CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1894B54A1B7D6AFE008070CC /* TanChiSheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanChiSheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1894B54B1B7D6AFE008070CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1894B5541B7D6AFE008070CC /* TanChiSheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TanChiSheTests-Info.plist"; sourceTree = "<group>"; };
+		1894B5561B7D6AFE008070CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1894B5581B7D6AFE008070CC /* TanChiSheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanChiSheTests.m; sourceTree = "<group>"; };
+		1894B5621B7D6CE8008070CC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1894B5631B7D6CE8008070CC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1894B5641B7D6CE8008070CC /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1894B5681B7D6E17008070CC /* back2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back2.mp3; sourceTree = "<group>"; };
+		1894B5691B7D6E17008070CC /* gameover_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover_background.png; sourceTree = "<group>"; };
+		1894B56A1B7D6E17008070CC /* greenstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenstar.png; sourceTree = "<group>"; };
+		1894B56B1B7D6E17008070CC /* pop_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pop_refresh.png; sourceTree = "<group>"; };
+		1894B56C1B7D6E17008070CC /* redstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redstar.png; sourceTree = "<group>"; };
+		1894B56D1B7D6E17008070CC /* shop_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_bottom.png; sourceTree = "<group>"; };
+		1894B56E1B7D6E17008070CC /* snake_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake_bg.png; sourceTree = "<group>"; };
+		1894B56F1B7D6E17008070CC /* win_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win_background.png; sourceTree = "<group>"; };
+		1894B5781B7D752C008070CC /* CellPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPoint.h; sourceTree = "<group>"; };
+		1894B5791B7D752C008070CC /* CellPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1894B5271B7D6AFE008070CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B5301B7D6AFE008070CC /* CoreGraphics.framework in Frameworks */,
+				1894B5341B7D6AFE008070CC /* CoreData.framework in Frameworks */,
+				1894B5321B7D6AFE008070CC /* UIKit.framework in Frameworks */,
+				1894B52E1B7D6AFE008070CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894B5471B7D6AFE008070CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B54C1B7D6AFE008070CC /* XCTest.framework in Frameworks */,
+				1894B54F1B7D6AFE008070CC /* CoreData.framework in Frameworks */,
+				1894B54E1B7D6AFE008070CC /* UIKit.framework in Frameworks */,
+				1894B54D1B7D6AFE008070CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1894B5211B7D6AFE008070CC = {
+			isa = PBXGroup;
+			children = (
+				186279341B81D85300A8CA86 /* SettingsTanChiShe.bundle */,
+				1894B5351B7D6AFE008070CC /* TanChiShe */,
+				1894B5521B7D6AFE008070CC /* TanChiSheTests */,
+				1894B52C1B7D6AFE008070CC /* Frameworks */,
+				1894B52B1B7D6AFE008070CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1894B52B1B7D6AFE008070CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1894B52A1B7D6AFE008070CC /* TanChiShe.app */,
+				1894B54A1B7D6AFE008070CC /* TanChiSheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1894B52C1B7D6AFE008070CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1894B52D1B7D6AFE008070CC /* Foundation.framework */,
+				1894B52F1B7D6AFE008070CC /* CoreGraphics.framework */,
+				1894B5311B7D6AFE008070CC /* UIKit.framework */,
+				1894B5331B7D6AFE008070CC /* CoreData.framework */,
+				1894B54B1B7D6AFE008070CC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1894B5351B7D6AFE008070CC /* TanChiShe */ = {
+			isa = PBXGroup;
+			children = (
+				1894B53E1B7D6AFE008070CC /* AppDelegate.h */,
+				1894B53F1B7D6AFE008070CC /* AppDelegate.m */,
+				1894B5621B7D6CE8008070CC /* HomeViewController.h */,
+				1894B5631B7D6CE8008070CC /* HomeViewController.m */,
+				1894B5641B7D6CE8008070CC /* HomeViewController.xib */,
+				1894B5781B7D752C008070CC /* CellPoint.h */,
+				1894B5791B7D752C008070CC /* CellPoint.m */,
+				1894B5441B7D6AFE008070CC /* Images.xcassets */,
+				1894B5411B7D6AFE008070CC /* TanChiShe.xcdatamodeld */,
+				1894B5361B7D6AFE008070CC /* Supporting Files */,
+			);
+			path = TanChiShe;
+			sourceTree = "<group>";
+		};
+		1894B5361B7D6AFE008070CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1894B5671B7D6E17008070CC /* 贪吃蛇图片 */,
+				1894B5371B7D6AFE008070CC /* TanChiShe-Info.plist */,
+				1894B5381B7D6AFE008070CC /* InfoPlist.strings */,
+				1894B53B1B7D6AFE008070CC /* main.m */,
+				1894B53D1B7D6AFE008070CC /* TanChiShe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1894B5521B7D6AFE008070CC /* TanChiSheTests */ = {
+			isa = PBXGroup;
+			children = (
+				1894B5581B7D6AFE008070CC /* TanChiSheTests.m */,
+				1894B5531B7D6AFE008070CC /* Supporting Files */,
+			);
+			path = TanChiSheTests;
+			sourceTree = "<group>";
+		};
+		1894B5531B7D6AFE008070CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1894B5541B7D6AFE008070CC /* TanChiSheTests-Info.plist */,
+				1894B5551B7D6AFE008070CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1894B5671B7D6E17008070CC /* 贪吃蛇图片 */ = {
+			isa = PBXGroup;
+			children = (
+				1894B5681B7D6E17008070CC /* back2.mp3 */,
+				1894B5691B7D6E17008070CC /* gameover_background.png */,
+				1894B56A1B7D6E17008070CC /* greenstar.png */,
+				1894B56B1B7D6E17008070CC /* pop_refresh.png */,
+				1894B56C1B7D6E17008070CC /* redstar.png */,
+				1894B56D1B7D6E17008070CC /* shop_bottom.png */,
+				1894B56E1B7D6E17008070CC /* snake_bg.png */,
+				1894B56F1B7D6E17008070CC /* win_background.png */,
+			);
+			path = "贪吃蛇图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1894B5291B7D6AFE008070CC /* TanChiShe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1894B55C1B7D6AFE008070CC /* Build configuration list for PBXNativeTarget "TanChiShe" */;
+			buildPhases = (
+				1894B5261B7D6AFE008070CC /* Sources */,
+				1894B5271B7D6AFE008070CC /* Frameworks */,
+				1894B5281B7D6AFE008070CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanChiShe;
+			productName = TanChiShe;
+			productReference = 1894B52A1B7D6AFE008070CC /* TanChiShe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1894B5491B7D6AFE008070CC /* TanChiSheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1894B55F1B7D6AFE008070CC /* Build configuration list for PBXNativeTarget "TanChiSheTests" */;
+			buildPhases = (
+				1894B5461B7D6AFE008070CC /* Sources */,
+				1894B5471B7D6AFE008070CC /* Frameworks */,
+				1894B5481B7D6AFE008070CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1894B5511B7D6AFE008070CC /* PBXTargetDependency */,
+			);
+			name = TanChiSheTests;
+			productName = TanChiSheTests;
+			productReference = 1894B54A1B7D6AFE008070CC /* TanChiSheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1894B5221B7D6AFE008070CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lanqiao;
+				TargetAttributes = {
+					1894B5491B7D6AFE008070CC = {
+						TestTargetID = 1894B5291B7D6AFE008070CC;
+					};
+				};
+			};
+			buildConfigurationList = 1894B5251B7D6AFE008070CC /* Build configuration list for PBXProject "TanChiShe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1894B5211B7D6AFE008070CC;
+			productRefGroup = 1894B52B1B7D6AFE008070CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1894B5291B7D6AFE008070CC /* TanChiShe */,
+				1894B5491B7D6AFE008070CC /* TanChiSheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1894B5281B7D6AFE008070CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B5711B7D6E17008070CC /* gameover_background.png in Resources */,
+				1894B53A1B7D6AFE008070CC /* InfoPlist.strings in Resources */,
+				1894B5451B7D6AFE008070CC /* Images.xcassets in Resources */,
+				1894B5751B7D6E17008070CC /* shop_bottom.png in Resources */,
+				1894B5741B7D6E17008070CC /* redstar.png in Resources */,
+				1894B5761B7D6E17008070CC /* snake_bg.png in Resources */,
+				1894B5701B7D6E17008070CC /* back2.mp3 in Resources */,
+				1894B5771B7D6E17008070CC /* win_background.png in Resources */,
+				186279351B81D85300A8CA86 /* SettingsTanChiShe.bundle in Resources */,
+				1894B5661B7D6CE8008070CC /* HomeViewController.xib in Resources */,
+				1894B5731B7D6E17008070CC /* pop_refresh.png in Resources */,
+				1894B5721B7D6E17008070CC /* greenstar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894B5481B7D6AFE008070CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B5571B7D6AFE008070CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1894B5261B7D6AFE008070CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B5431B7D6AFE008070CC /* TanChiShe.xcdatamodeld in Sources */,
+				1894B5401B7D6AFE008070CC /* AppDelegate.m in Sources */,
+				1894B57A1B7D752C008070CC /* CellPoint.m in Sources */,
+				1894B53C1B7D6AFE008070CC /* main.m in Sources */,
+				1894B5651B7D6CE8008070CC /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894B5461B7D6AFE008070CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894B5591B7D6AFE008070CC /* TanChiSheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1894B5511B7D6AFE008070CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1894B5291B7D6AFE008070CC /* TanChiShe */;
+			targetProxy = 1894B5501B7D6AFE008070CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1894B5381B7D6AFE008070CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894B5391B7D6AFE008070CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1894B5551B7D6AFE008070CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894B5561B7D6AFE008070CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1894B55A1B7D6AFE008070CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1894B55B1B7D6AFE008070CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1894B55D1B7D6AFE008070CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TanChiShe/TanChiShe-Prefix.pch";
+				INFOPLIST_FILE = "TanChiShe/TanChiShe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1894B55E1B7D6AFE008070CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TanChiShe/TanChiShe-Prefix.pch";
+				INFOPLIST_FILE = "TanChiShe/TanChiShe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1894B5601B7D6AFE008070CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TanChiShe.app/TanChiShe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TanChiShe/TanChiShe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TanChiSheTests/TanChiSheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1894B5611B7D6AFE008070CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TanChiShe.app/TanChiShe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TanChiShe/TanChiShe-Prefix.pch";
+				INFOPLIST_FILE = "TanChiSheTests/TanChiSheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1894B5251B7D6AFE008070CC /* Build configuration list for PBXProject "TanChiShe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894B55A1B7D6AFE008070CC /* Debug */,
+				1894B55B1B7D6AFE008070CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1894B55C1B7D6AFE008070CC /* Build configuration list for PBXNativeTarget "TanChiShe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894B55D1B7D6AFE008070CC /* Debug */,
+				1894B55E1B7D6AFE008070CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1894B55F1B7D6AFE008070CC /* Build configuration list for PBXNativeTarget "TanChiSheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894B5601B7D6AFE008070CC /* Debug */,
+				1894B5611B7D6AFE008070CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1894B5411B7D6AFE008070CC /* TanChiShe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1894B5421B7D6AFE008070CC /* TanChiShe.xcdatamodel */,
+			);
+			currentVersion = 1894B5421B7D6AFE008070CC /* TanChiShe.xcdatamodel */;
+			path = TanChiShe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1894B5221B7D6AFE008070CC /* Project object */;
+}
